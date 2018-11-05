@@ -7,7 +7,7 @@ import re
 import sys
 
 # Complete the rotLeft function below.
-# Uses partial tail recursion for optimization that was not taken care of in algorithm. 
+
 def rotLeft(a, d):
     def rotateHelper(a, d, count):
         if d == count:
